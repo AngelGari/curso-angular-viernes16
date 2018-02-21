@@ -1,0 +1,28 @@
+$color-default: black;
+$color-letter-button: gray;
+
+//sass
+
+.ingreso  {
+    background:  rgb(245, 245, 245);
+    $color-letter-button: white;
+    .muestra{
+        .columna {
+
+            background: $color-default;
+        }
+        }
+    }
+.boton{
+    b {
+        background: black;
+        color: blueviolet;
+    }
+}
+.lista{
+    background: rgb(203, 203, 218);
+
+}
+div {
+    background: violet(235, 31, 31);
+}

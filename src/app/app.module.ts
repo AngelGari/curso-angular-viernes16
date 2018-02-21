@@ -3,6 +3,9 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { SharedModule } from './shared/shared.module';
+import { RegistroModule } from './registro/registro.module';
+import { RegistroComponent } from './registro/registro.component';
 
 
 @NgModule({
@@ -10,9 +13,13 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    //AppComponent,
+    SharedModule,
+    RegistroModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
+
